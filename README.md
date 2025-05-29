@@ -10,6 +10,10 @@ Acesse a versão deployada do projeto na Railway:
 
 [(https://seu-projeto.up.railway.app)](https://magnificent-flow-production.up.railway.app/)  <!-- Substitua pelo link real -->
 
+## Link API
+➡️ [https://api-vercel2.vercel.app/api/jogadores](https://api-vercel2.vercel.app/api/jogadores)
+
+
 ---
 
 ## Funcionalidades
