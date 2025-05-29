@@ -12,6 +12,7 @@ Acesse a versão deployada do projeto na Railway:
 
 ## Link API
 ➡️ [https://api-vercel2.vercel.app/api/jogadores](https://api-vercel2.vercel.app/api/jogadores)
+
 ➡️ https://github.com/marreiro204/api-vercel
 
 
