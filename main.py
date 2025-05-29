@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 import matplotlib
 import io
 import base64
+import os
 
 matplotlib.use("Agg")
 
 API_URL = "https://api-vercel2.vercel.app/api/jogadores"  # coloque sua URL  aqui
+
+port = int(os.environ.get("PORT", 8550))
 
 def main(page: ft.Page):
     page.title = "Análise de jogadores - Brasileirão 2024"
@@ -157,4 +160,4 @@ def main(page: ft.Page):
 
     page.update()
 
-ft.app(target=main)
+ft.app(target=main, port=port)
